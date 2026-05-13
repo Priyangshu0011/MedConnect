@@ -60,15 +60,7 @@ This project was built to fulfill the comprehensive requirements of the **INT221
    ```bash
    cp .env.example .env
    ```
-   Open `.env` and update your database credentials:
-   ```env
-   DB_CONNECTION=mysql
-   DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=hospital_appointments
-   DB_USERNAME=root
-   DB_PASSWORD=
-   ```
+   Open the `.env` file and update your database credentials (e.g., `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`) according to your local MySQL setup.
 
 4. **Generate Application Key:**
    ```bash
